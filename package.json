@@ -1,8 +1,8 @@
 {
-  "name": "tb-excel-parser",
-  "version": "0.1.0",
-  "description": "base on exceljs",
-  "main": "index.js",
+  "name": "tb-excel",
+  "version": "0.0.1",
+  "description": "based on exceljs",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha",
     "lint": "standard"
@@ -31,6 +31,7 @@
     "lodash": "^4.17.4"
   },
   "devDependencies": {
+    "co": "^4.6.0",
     "co-mocha": "^1.2.0",
     "mocha": "^3.5.0",
     "rewire": "^2.5.2",
