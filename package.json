@@ -1,0 +1,40 @@
+{
+  "name": "tb-excel-parser",
+  "version": "0.1.0",
+  "description": "base on exceljs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "standard"
+  },
+  "engine": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:weizainiunai/tb-excel-parser.git"
+  },
+  "keywords": [
+    "excel",
+    "javascript",
+    "npm",
+    "nodejs"
+  ],
+  "author": "richardwei<jiangwei199513@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weizainiunai/tb-excel-parser/issues"
+  },
+  "homepage": "https://github.com/weizainiunai/tb-excel-parser#readme",
+  "dependencies": {
+    "exceljs": "^0.5.1",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "co-mocha": "^1.2.0",
+    "mocha": "^3.5.0",
+    "rewire": "^2.5.2",
+    "should": "^11.2.1",
+    "standard": "^10.0.3"
+  }
+}
