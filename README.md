@@ -15,7 +15,7 @@ npm install tb-excel
 - Use `exceljs` native method:
 
   ```javascript
-    const Excel = require('tb-excel')
+    const Excel = require('tb-excel').exceljs
   ```
 - Use `tb-excel` extends methods. such as, use xlsx parse methods:
 
