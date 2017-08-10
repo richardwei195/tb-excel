@@ -1,6 +1,6 @@
 {
   "name": "tb-excel",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "based on exceljs",
   "main": "lib/index.js",
   "scripts": {
