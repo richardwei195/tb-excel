@@ -10,6 +10,13 @@
 ```shell
 npm install tb-excel
 ```
+## Support 
+| Source |   rule | limit | toObject |
+| ----- | ------- | -------- | --------- |
+| binary   | support | support  | support   |
+| utf8+BOM | support | support  | support   |
+| utf16    | support | support  | support   |
+
 
 ## Notice
 
@@ -48,8 +55,8 @@ npm install tb-excel
       const co = require('co')
 
       let data = 'you get from request'
-
-      const excel = new ExcelParser(data, ['a', 'b'], 3)
+      let rule = ['a', 'b']
+      const excel = new ExcelParser(data, rule, 3)
 
       //  you can use gengerator or async, depends yourself
 
@@ -58,6 +65,18 @@ npm install tb-excel
         console.log(row) // we can get each rows content from excel
       }
       co(parser())
+    ```
+  Last: Format data according to you rule
+
+    ```javascript
+    
+     obj = row.toArray()
+     console.log(obj)
+     // [{
+	  a: '',
+          b: ''
+	}]
+
     ```
 
 ## Doc
