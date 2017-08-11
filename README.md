@@ -10,12 +10,13 @@
 ```shell
 npm install tb-excel
 ```
-## Support 
-| Source |   rule | limit | toObject |
-| ----- | ------- | -------- | --------- |
-| binary   | support | support  | support   |
-| utf8+BOM | support | support  | support   |
-| utf16    | support | support  | support   |
+## Support
+| Source   | parse   |  rule    | limit     | toObject |
+| -----    | ------- | -------- | --------- | -------- |
+| binary   | support | support  | support   | support  |
+| utf8+BOM | support | support  | support   | support  |
+| utf16    | support | support  | support   | support  |
+| file     | support | no       | no        | no       |
 
 
 ## Notice
