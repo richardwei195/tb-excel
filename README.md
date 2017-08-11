@@ -1,6 +1,6 @@
 ## tb-excel
 
-![Build Status](https://travis-ci.org/weizainiunai/tb-excel.svg?branch=master)
+![Build Status](https://travis-ci.org/richardwei195/tb-excel.svg?branch=master)
 [![NPM version](https://img.shields.io/npm/v/tb-excel.svg)](https://www.npmjs.com/package/tb-excel])
 
 > When you get excel binary data from http or a file, you can use this to parse it and get  object you want
